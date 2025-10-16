@@ -1,0 +1,12 @@
+int i = 1;
+while (i <= 3)
+{
+    Console.WriteLine(i);
+    i++;
+}
+
+Output:
+
+1
+2
+3
