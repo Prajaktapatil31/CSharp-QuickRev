@@ -1,0 +1,26 @@
+using System;
+class Student
+{
+    public string Name;
+    public int Age;
+
+    public void Greet()
+    {
+        Console.WriteLine($"Hello, I am {Name} and I am {Age} years old.");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Student s = new Student();
+        s.Name = "Prajakta";
+        s.Age = 20;
+        s.Greet();
+    }
+}
+
+
+Output:
+
+Hello, I am Prajakta and I am 20 years old.
