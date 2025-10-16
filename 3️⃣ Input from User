@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter your name: ");
+        string name = Console.ReadLine(); // Takes string input
+        Console.Write("Enter your age: ");
+        int age = int.Parse(Console.ReadLine()); // Converts input to int
+
+        Console.WriteLine($"Hello {name}! You are {age} years old.");
+    }
+}
+
+
+Output (example):
+
+Enter your name: Prajakta
+Enter your age: 20
+Hello Prajakta! You are 20 years old.
