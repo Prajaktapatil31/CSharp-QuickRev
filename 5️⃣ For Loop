@@ -1,0 +1,13 @@
+for (int i = 1; i <= 5; i++)
+{
+    Console.WriteLine("Count: " + i);
+}
+
+
+Output:
+
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+Count: 5
