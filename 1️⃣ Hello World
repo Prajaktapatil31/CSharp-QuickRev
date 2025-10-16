@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!"); // Prints text to console
+    }
+}
+
+
+Output:
+
+Copy code
+Hello, World!
