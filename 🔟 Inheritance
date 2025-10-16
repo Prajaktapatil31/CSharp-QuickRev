@@ -1,0 +1,27 @@
+class Person
+{
+    public string Name;
+    public void Greet() => Console.WriteLine("Hello " + Name);
+}
+
+class Student : Person
+{
+    public int Age;
+}
+
+class Program
+{
+    static void Main()
+    {
+        Student s = new Student();
+        s.Name = "Prajakta";
+        s.Age = 20;
+        s.Greet();
+        Console.WriteLine("Age: " + s.Age);
+    }
+}
+
+Output:
+
+Hello Prajakta
+Age: 20
